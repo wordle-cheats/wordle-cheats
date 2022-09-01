@@ -1,4 +1,7 @@
-# wordle-cheats
+# Worldle Cheat
+
 Draggable bookmarklet to get wordle's word of the day
 
-[Drag this to your bookmarks bar](javascript:window.alert%28JSON.parse%28window.localStorage.getItem%28"nyt-wordle-state"%29%29.solution%29)
+Drag this link to your bookmarks bar, then click it when on the Wordle site. It will give you a popup with the solution
+
+[Solve Wordle!](javascript:window.alert%28JSON.parse%28window.localStorage.getItem%28"nyt-wordle-state"%29%29.solution%29)
